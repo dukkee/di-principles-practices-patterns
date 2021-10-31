@@ -1,0 +1,6 @@
+<h2>Featured Products</h2>
+<div>
+  {% for product in products %}
+    <div>{{ product.name }} ({{ product.unit_price }})</div>
+  {% endfor %}
+</div>
